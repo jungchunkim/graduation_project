@@ -24,7 +24,6 @@ from kobert.pytorch_kobert import get_pytorch_kobert_model
 from transformers import BertTokenizer, BertModel
 
 from pathlib import Path
-from utils import BERTClassifier
 
 import pandas as pd
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
